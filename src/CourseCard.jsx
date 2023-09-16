@@ -1,5 +1,4 @@
-const CourseCard = ({ course }) => {
-  console.log(course);
+const CourseCard = ({ course, cardClickHandler }) => {
   const { courseName, credit, details, image, price } = course;
   return (
     <div className="p-4 bg-white shadow-xl rounded-xl w-[312px] space-y-4">
@@ -12,7 +11,10 @@ const CourseCard = ({ course }) => {
         <h2 className="font-semibold text-gray-500">Price: {price}</h2>
         <h2 className="font-semibold text-gray-500">Credit: {credit}hr</h2>
       </div>
-      <button className="hover:bg-[#2a71cf] btn w-full bg-[#2F80ED] text-white text-base font-semibold">
+      <button
+        onClick={() => cardClickHandler(course)}
+        className="hover:bg-[#2a71cf] btn w-full bg-[#2F80ED] text-white text-base font-semibold"
+      >
         Select
       </button>
     </div>

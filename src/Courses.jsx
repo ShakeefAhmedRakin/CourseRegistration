@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import CourseCard from "./CourseCard";
 
-const Courses = () => {
+const Courses = ({ cardClickHandler }) => {
   const [courses, setCourses] = useState([]);
 
   useEffect(() => {
@@ -14,7 +14,11 @@ const Courses = () => {
   return (
     <div className="grid grid-cols-3 gap-6">
       {courses.map((course) => (
-        <CourseCard key={course.courseId} course={course}></CourseCard>
+        <CourseCard
+          key={course.courseId}
+          course={course}
+          cardClickHandler={cardClickHandler}
+        ></CourseCard>
       ))}
     </div>
   );

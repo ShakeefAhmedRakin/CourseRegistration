@@ -3,12 +3,15 @@ import Selection from "./Selection";
 import Courses from "./Courses";
 
 function App() {
+  const cardClickHandler = (course) => {
+    console.log(course.courseName);
+  };
   return (
-    <div className="bg-[#F3F3F3]">
+    <div className="bg-[#F3F3F3] pb-16">
       <Header></Header>
       <div className="flex justify-center gap-6">
         <div>
-          <Courses></Courses>
+          <Courses cardClickHandler={cardClickHandler}></Courses>
         </div>
         <div>
           <Selection></Selection>
