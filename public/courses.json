@@ -1,5 +1,6 @@
 [
     {
+        "courseId": 1,
         "courseName": "Introduction to C Programming",
         "credit": 1,
         "price": 15000,
@@ -7,6 +8,7 @@
         "image": "../src/assets/Rectangle 2-2.png"
     },
     {
+        "courseId": 2,
         "courseName": "Introduction to Algorithms",
         "credit": 2,
         "price": 25000,
@@ -14,6 +16,7 @@
         "image": "../src/assets/Rectangle 2-3.png"
     },
     {
+        "courseId": 3,
         "courseName": "Introduction to C++ for DSA",
         "credit": 10,
         "price": 10000,
@@ -21,6 +24,7 @@
         "image": "../src/assets/Rectangle 2-4.png"
     },
     {
+        "courseId": 4,
         "courseName": "Basic Data Structures",
         "credit": 5,
         "price": 35000,
@@ -28,6 +32,7 @@
         "image": "../src/assets/Rectangle 3.png"
     },
     {
+        "courseId": 5,
         "courseName": "Introduction to OOP Python",
         "credit": 5,
         "price": 19000,
@@ -35,6 +40,7 @@
         "image": "../src/assets/Rectangle 2.png"
     },
     {
+        "courseId": 6,
         "courseName": "Software Engineering",
         "credit": 2,
         "price": 23000,
@@ -42,6 +48,7 @@
         "image": "../src/assets/Rectangle 2-5.png"
     },
     {
+        "courseId": 7,
         "courseName": "AWS",
         "credit": 5,
         "price": 35000,
@@ -49,6 +56,7 @@
         "image": "../src/assets/Rectangle 3-1.png"
     },
     {
+        "courseId": 8,
         "courseName": "Cloud Computing",
         "credit": 5,
         "price": 19000,
@@ -56,6 +64,7 @@
         "image": "../src/assets/Rectangle 2-1.png"
     },
     {
+        "courseId": 9,
         "courseName": "Database (MySQL)",
         "credit": 2,
         "price": 23000,

@@ -1,0 +1,22 @@
+const CourseCard = ({ course }) => {
+  console.log(course);
+  const { courseName, credit, details, image, price } = course;
+  return (
+    <div className="p-4 bg-white shadow-xl rounded-xl w-[312px] space-y-4">
+      <img src={image} alt="" />
+      <div className="space-y-1">
+        <h2 className=" text-lg font-semibold">{courseName}</h2>
+        <p className=" text-sm text-gray-500 ">{details}</p>
+      </div>
+      <div className="flex justify-between">
+        <h2 className="font-semibold text-gray-500">Price: {price}</h2>
+        <h2 className="font-semibold text-gray-500">Credit: {credit}hr</h2>
+      </div>
+      <button className="hover:bg-[#2F80ED] btn w-full bg-[#2F80ED] text-white text-base font-semibold">
+        Select
+      </button>
+    </div>
+  );
+};
+
+export default CourseCard;
