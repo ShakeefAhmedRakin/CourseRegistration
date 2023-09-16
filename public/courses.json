@@ -52,7 +52,7 @@
         "courseName": "AWS, Cloud Computing",
         "credit": 5,
         "price": 35000,
-        "details": "Explore the world of Amazon Web Services (AWS) and dive into the realm of cloud computing technologies.",
+        "details": "Explore the world and dive into the realm of cloud computing technologies.",
         "image": "https://i.ibb.co/mSbp5FJ/Rectangle-3-1.png"
     },
     {
@@ -60,7 +60,7 @@
         "courseName": "Database (MySQL)",
         "credit": 5,
         "price": 19000,
-        "details": "Immerse yourself in the realm of MySQL database management and SQL queries with our Database (MySQL) Course.",
+        "details": "Immerse yourself in MySQL and SQL queries with this course.",
         "image": "https://i.ibb.co/Jctw53k/Rectangle-2-1.png"
     },
     {
@@ -68,7 +68,7 @@
         "courseName": "Problem-Solving Part",
         "credit": 2,
         "price": 23000,
-        "details": "Master problem-solving skills while delving into MySQL database management and SQL queries in our Problem-Solving Part Course.",
+        "details": "Master problem-solving skills while delving in our Problem-Solving Part Course.",
         "image": "https://i.ibb.co/sg8bPXb/Rectangle-2-6.png"
     }
 ]
