@@ -5,7 +5,7 @@
         "credit": 1,
         "price": 15000,
         "details": "Learn the fundamentals of C programming language.",
-        "image": "../src/assets/Rectangle 2-2.png"
+        "image": "Rectangle 2-2.png"
     },
     {
         "courseId": 2,
@@ -13,7 +13,7 @@
         "credit": 2,
         "price": 25000,
         "details": "Master the basics of algorithm design and analysis.",
-        "image": "../src/assets/Rectangle 2-3.png"
+        "image": "Rectangle 2-3.png"
     },
     {
         "courseId": 3,
@@ -21,7 +21,7 @@
         "credit": 10,
         "price": 10000,
         "details": "Explore C++ for data structures and algorithms.",
-        "image": "../src/assets/Rectangle 2-4.png"
+        "image": "Rectangle 2-4.png"
     },
     {
         "courseId": 4,
@@ -29,7 +29,7 @@
         "credit": 5,
         "price": 35000,
         "details": "Learn essential data structures like arrays, linked lists, and stacks.",
-        "image": "../src/assets/Rectangle 3.png"
+        "image": "Rectangle 3.png"
     },
     {
         "courseId": 5,
@@ -37,7 +37,7 @@
         "credit": 5,
         "price": 19000,
         "details": "Get started with object-oriented programming in Python.",
-        "image": "../src/assets/Rectangle 2.png"
+        "image": "Rectangle 2.png"
     },
     {
         "courseId": 6,
@@ -45,7 +45,7 @@
         "credit": 2,
         "price": 23000,
         "details": "Explore software engineering principles and best practices.",
-        "image": "../src/assets/Rectangle 2-5.png"
+        "image": "Rectangle 2-5.png"
     },
     {
         "courseId": 7,
@@ -53,7 +53,7 @@
         "credit": 5,
         "price": 35000,
         "details": "Learn Amazon Web Services (AWS) cloud computing platform.",
-        "image": "../src/assets/Rectangle 3-1.png"
+        "image": "Rectangle 3-1.png"
     },
     {
         "courseId": 8,
@@ -61,7 +61,7 @@
         "credit": 5,
         "price": 19000,
         "details": "Discover the world of cloud computing technologies.",
-        "image": "../src/assets/Rectangle 2-1.png"
+        "image": "Rectangle 2-1.png"
     },
     {
         "courseId": 9,
@@ -69,6 +69,6 @@
         "credit": 2,
         "price": 23000,
         "details": "Master MySQL database management and SQL queries.",
-        "image": "../src/assets/Rectangle 2-6.png"
+        "image": "Rectangle 2-6.png"
     }
 ]
