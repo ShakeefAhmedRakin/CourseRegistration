@@ -2,6 +2,8 @@ import Header from "./Header";
 import Selection from "./Selection";
 import Courses from "./Courses";
 import { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const creditLimit = 20;
@@ -10,12 +12,34 @@ function App() {
   const [selectedCourses, setSelectedCourses] = useState([]);
 
   const cardClickHandler = (course) => {
-    if (creditSelected + course.credit <= creditLimit) {
-      setSelectedCourses([...selectedCourses, course]);
-      setTotalPrice(totalPrice + course.price);
-      setCreditSelected(creditSelected + course.credit);
+    if (!selectedCourses.includes(course)) {
+      if (creditSelected + course.credit <= creditLimit) {
+        setSelectedCourses([...selectedCourses, course]);
+        setTotalPrice(totalPrice + course.price);
+        setCreditSelected(creditSelected + course.credit);
+      } else {
+        toast.warn("Credit limit exceeded!", {
+          position: "top-right",
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: false,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+        });
+      }
     } else {
-      alert("Credit limit exceeded!");
+      toast.error("Course Already Selected", {
+        position: "top-right",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: false,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
     }
   };
 
@@ -34,6 +58,7 @@ function App() {
           ></Selection>
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 }

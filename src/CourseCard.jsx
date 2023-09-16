@@ -1,5 +1,6 @@
 const CourseCard = ({ course, cardClickHandler }) => {
   const { courseName, credit, details, image, price } = course;
+
   return (
     <div className="p-4 bg-white shadow-xl rounded-xl w-[312px] space-y-4">
       <img src={image} alt="" />

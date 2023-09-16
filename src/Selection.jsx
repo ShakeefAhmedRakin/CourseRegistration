@@ -1,5 +1,4 @@
 const Selection = ({ selectedCourses, creditSelected, totalPrice }) => {
-  console.log(selectedCourses);
   return (
     <div className="p-4 bg-white shadow-xl rounded-xl w-[312px] space-y-4">
       <h1 className="text-lg font-bold text-[#2F80ED]">
