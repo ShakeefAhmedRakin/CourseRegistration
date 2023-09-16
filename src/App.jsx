@@ -46,11 +46,11 @@ function App() {
   return (
     <div className="bg-[#F3F3F3] pb-16">
       <Header></Header>
-      <div className="flex justify-center gap-6">
+      <div className="flex flex-col lg:flex-row justify-center gap-6 px-3">
         <div>
           <Courses cardClickHandler={cardClickHandler}></Courses>
         </div>
-        <div>
+        <div className="flex-1 lg:max-w-[400px]">
           <Selection
             selectedCourses={selectedCourses}
             creditSelected={creditSelected}

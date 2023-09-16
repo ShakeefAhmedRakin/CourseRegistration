@@ -1,6 +1,6 @@
 const Selection = ({ selectedCourses, creditSelected, totalPrice }) => {
   return (
-    <div className="p-4 bg-white shadow-xl rounded-xl w-[312px] space-y-4">
+    <div className="p-4 bg-white shadow-xl rounded-xl space-y-4">
       <h1 className="text-lg font-bold text-[#2F80ED]">
         Credit Hour Remaining {20 - creditSelected}
       </h1>
